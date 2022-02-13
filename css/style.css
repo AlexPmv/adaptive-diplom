@@ -32,7 +32,7 @@
 
   .wrapper {
     max-width: 1200px;
-    min-width: 360px;
+    min-width: 300px;
     padding: 0 15px;
     margin: auto;
   }
@@ -1010,30 +1010,9 @@
     }
   
   }
-  
-    
-  @media (min-width: 641px) and (max-width: 768px) {
-
-    /* aside-search *******************************/
-    
-    .search-field-block {
-      max-width: 82%;
-    }
-   
-    /* goods ***********************************/
-
-    .goods-item-picture {
-      min-height: 27vw;
-    }
-  
-  }
 
     
   @media (max-width: 640px) {
-
-    .wrapper {
-      padding: 0 15px;
-    }
 
     .title {
       font-size: 1em;
@@ -1043,7 +1022,6 @@
     /* header **********************************/
 
     .page-header {
-      min-width: 360px;
       min-height: 639px;
       background-image: url('../images/banner-mobile.jpg');
     }
@@ -1090,7 +1068,6 @@
     /* page-content-popular *******************/
 
     .page-content-popular {
-      min-width: 360px;
       margin: 0 0 36px;
     }
 
@@ -1110,7 +1087,7 @@
 
     .main-content {
       width: 100%;
-      margin: 0 0 45px;
+      margin: 0 0 40px;
     }
 
     .main-article-block:not(:last-child) {
@@ -1164,7 +1141,7 @@
     /* goods ***********************************/
     
     .goods {
-      margin: 43px 0 0;
+      margin: 40px 0 0;
     }
 
     .goods-items {
