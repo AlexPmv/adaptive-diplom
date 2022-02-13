@@ -540,6 +540,7 @@
     width: 1px;
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
+    overflow-x: hidden;
   }
   
   .aside-search-button {
@@ -1167,6 +1168,10 @@
       margin: 0 0 46px;
     }
 
+    /* .social-network-item:not(:first-child) {
+      margin: 0 0 0 22px;
+    } */
+
   }
 
   @media (max-width: 640px) and (orientation: portrait) {
@@ -1186,6 +1191,12 @@
 
     .popular-item-info {
       padding: 27px 19px;
+    }
+
+    /* footer **********************************/
+    
+    .social-network-item:not(:first-child) {
+      margin: 0 0 0 22px;
     }
   
   }  
