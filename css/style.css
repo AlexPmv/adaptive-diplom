@@ -130,8 +130,8 @@
     margin: 0 0 0 35px;
   }
   
-  .page-nav-item:hover {
-    text-decoration: underline;
+  .page-nav-item > .nav-item-link:hover {
+    text-shadow: 0 0 white;
   }
   
   .nav-item-link {
@@ -277,8 +277,9 @@
     color: #b59f5b;
   }
   
-  .article-tag-link:hover, .popular-tag-link:hover, .goods-text-link:hover {
+  .article-tag-link:hover, .popular-tag-link:hover, .goods-text-link:hover, .page-nav-item:hover {
     text-decoration: underline;
+    text-shadow: 0 0 #b59f5b;
   }
   
   .main-article-title {
@@ -408,8 +409,9 @@
 
   }
 
-  .feedback-form > div > label > p, .feedback-form > div > p {
-    margin: 0 0 10px;
+  .feedback-form-question {
+    display: inline-block;
+    margin: 0 0 8px;
   }
 
   .feedback-form-question, .feedback-radio-text {
@@ -428,6 +430,11 @@
   }
 
   .feedback-radio-group {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .feedback-radio-label {
     position: relative;
   }
 
@@ -439,7 +446,7 @@
   }
 
   .feedback-radio-label:not(:last-child) > .feedback-radio-text {
-    margin: 0 10px 0 0;
+    margin: 0 20px 0 0;
   }
 
   .feedback-radio-text::before {
@@ -468,7 +475,7 @@
     padding: 18px;
   }
 
-  .feedback-form > button {
+  .feedback-form > div > button {
     margin: 0;
   }
   
@@ -590,6 +597,7 @@
   
   .tags-block-item:hover {
     border-color: #b59f5b;
+    text-shadow: 0 0 black;
   }
   
   .tags-item-link {
@@ -864,7 +872,7 @@
 
     .main-article-figure > img {
       width: 391px;
-      max-width: 100%;
+      width: 100%;
       margin: 0;
     }
 
